@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:strokeColor="@color/black"
+    app:strokeWidth="2dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/app_name"
+        android:textSize="18dp"
+        android:id="@+id/tvSarlavha"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_below="@id/tvSarlavha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="18dp"
+        android:id="@+id/tvBatafsil"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="18dp"
+        android:id="@+id/tvOxxirgiMuddat"
+        android:layout_margin="10dp"
+        android:layout_below="@id/tvBatafsil"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="18dp"
+        android:layout_margin="10dp"
+        android:layout_below="@id/tvOxxirgiMuddat"
+        android:id="@+id/tvZaruriylik"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="18dp"
+        android:layout_margin="10dp"
+        android:layout_below="@id/tvZaruriylik"
+        android:id="@+id/tvBajarildi"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_below="@id/tvBajarildi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="18dp"
+        android:id="@+id/tvSana"
+        android:textColor="@color/black"
+        />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_more"
+            android:id="@+id/btn_more"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

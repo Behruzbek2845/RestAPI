@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RestAPI</string>
+    <string name="save">Save</string>
+    <string name="sarlavha">Sarlavha</string>
+    <string name="sana">Sana</string>
+    <string name="bajarildi">Bajarildi</string>
+    <string name="zaruriylik">Zaruriylik</string>
+    <string name="oxxirgi_muddat">Oxxirgi muddat</string>
+    <string name="batafsil">Batafsil</string>
+</resources>
